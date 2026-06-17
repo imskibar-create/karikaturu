@@ -127,7 +127,6 @@ async def generate_caricature(
                 "strength": str(strength),
                 "model": "sd3.5-large-turbo",  # 4 credits, fast, good quality
                 "output_format": "png",
-                "aspect_ratio": "1:1",
             },
             timeout=120,
         )
